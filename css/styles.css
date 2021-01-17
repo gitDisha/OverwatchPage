@@ -1,0 +1,178 @@
+/****************************MAIN SELECTOR****************************/
+#mainPage {
+    margin: 50px auto 50px 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: #8f8f8f;
+}
+/****************************NAV SELECTOR****************************/
+
+.navbar {
+    padding-bottom: 0 0 4.5rem ;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px 0 18px ;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+/****************************TITLE SECTION****************************/
+#title {
+    background-color: #0d335d;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+}
+.title-image {
+    width:450px;
+    /* left: 55%; */
+    /* bottom: 8%; */
+    /* transform: rotate(25deg); */
+    /* position: absolute; */
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+.downloadButton {
+    margin: 5% 3% 5% 0;
+}
+/****************************FEATURE SECTION****************************/
+#features {
+    padding: 7% 15%;
+    background-color: #fff3e6;
+    /* position: relative; */
+    /* z-index: 1; */
+    /* padding-top: 2rem; */
+}
+.featureBox {
+    text-align: center;
+    padding: 5%;
+}
+.icon {
+    display: block;
+    text-align: center;
+    color: #ef8172;
+    size: 4rem;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+/****************************TESTIMONIAL SECTION****************************/
+#testimonials {
+    text-align: center;
+    background-color: #1a508b;
+    color: #fff3e6;
+
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press {
+    background-color: #1a508b;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.pressLogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+/****************************PRICING SECTION****************************/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/****************************CTA SECTION****************************/
+#cta {
+    background-color: #0d335d;
+    padding: 7% 15%;
+    text-align: center;
+    /* font-family: 'Montserrat', sans-serif; */
+    color: #fff3e6;
+}
+/****************************FOOTER SECTION****************************/
+#footer {
+    background-color: #fff3e6;
+    padding: 7% 15%;
+    text-align: center;
+}
+.footer-icon {
+    margin: 20px 10px;
+    color: black;
+    text-decoration:none;
+
+}
+/****************************MOBILE SECTION****************************/
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        /* transform: rotate(0); */
+        /* margin-right: 15%; */
+
+    }
+}
+
+.hoverText {
+    position: relative;
+    display: inline-block;
+  }
+
+.hoverText:hover .hover{
+    visibility: visible;
+
+}
+
+.hover{
+    visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+  
+}
