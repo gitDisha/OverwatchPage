@@ -87,6 +87,10 @@ p {
 .icon:hover {
   color: #ff4c68;
 }
+.featureLink{
+    text-decoration: underline;
+    text-decoration-color: #ef8172;
+}
 /****************************TESTIMONIAL SECTION****************************/
 #testimonials {
   text-align: center;
@@ -146,8 +150,8 @@ p {
 #pricing #priceTerms {
   color: white;
 }
-/****************************CTA SECTION****************************/
-#cta {
+/****************************download SECTION****************************/
+#download {
   background-color: #0d335d;
   padding: 7% 15%;
   text-align: center;
