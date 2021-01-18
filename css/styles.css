@@ -46,6 +46,8 @@ p {
   padding-left: 150px;
   padding-right: 150px;
   color: white;
+  background-image: url('../images/Dorado.jpg')
+
 }
 .title-image {
   width: 450px;
@@ -89,7 +91,7 @@ p {
 /****************************TESTIMONIAL SECTION****************************/
 #testimonials {
   text-align: center;
-  background-color: #1a508b;
+  background-color: #0d335d;
   color: #fff3e6;
 }
 .testimonial-image {
@@ -98,7 +100,7 @@ p {
   margin: 20px;
 }
 #press {
-  background-color: #1a508b;
+  background-color: #0d335d;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -109,14 +111,22 @@ p {
 .carousel-item {
   padding: 7% 15%;
 }
+.column{
+    float: left;
+    width: 50%;
+}
 /****************************PRICING SECTION****************************/
 #pricing {
   padding: 100px;
   text-align: center;
   background-color: #fff3e6;
+  background-image: url('../images/black-forest.jpg')
 }
 .pricing-column {
   padding: 2% 2%;
+}
+#pricing #priceTitle{
+    color: white;
 }
 #pricing .card-header {
   background-color: #0d335d;
@@ -136,7 +146,7 @@ p {
   margin: auto 15% auto auto;
 }
 #pricing #priceTerms {
-  color: black;
+  color: white;
 }
 /****************************CTA SECTION****************************/
 #cta {
