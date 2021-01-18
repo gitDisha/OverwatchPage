@@ -125,7 +125,7 @@ p {
   background-image: url("../images/black-forest.jpg");
 }
 .pricing-column {
-  padding: 2% 2%;
+  padding: 2% 30%;
 }
 #pricing #priceTitle {
   color: white;
@@ -206,3 +206,10 @@ p {
   top: -5px;
   left: 105%;
 }
+
+.marginRight {
+    margin: auto;
+  }
+  .marginLeft {
+    margin: auto;
+  }
