@@ -21,7 +21,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 p {
-  color: #8f8f8f;
+  color: black;
 }
 /****************************NAV SELECTOR****************************/
 
@@ -68,7 +68,7 @@ p {
 /****************************FEATURE SECTION****************************/
 #features {
   padding: 7% 15%;
-  background-color: #fff3e6;
+  background-color: #b4c5e0;
   /* position: relative; */
   /* z-index: 1; */
   /* padding-top: 2rem; */
@@ -80,22 +80,24 @@ p {
 .icon {
   display: block;
   text-align: center;
-  color: #ef8172;
+  color: #0d335d;
   size: 4rem;
   margin-bottom: 1rem;
 }
 .icon:hover {
-  color: #ff4c68;
+  color: #1a508b;
 }
 .featureLink{
     text-decoration: underline;
-    text-decoration-color: #ef8172;
+    text-decoration-color: #0d335d;
 }
 /****************************TESTIMONIAL SECTION****************************/
 #testimonials {
   text-align: center;
   background-color: #0d335d;
   color: #fff3e6;
+  background-image: url("../images/necropolis.jpg");
+
 }
 .testimonial-image {
   width: 70%;
@@ -105,7 +107,12 @@ p {
 .carousel-item {
   padding: 7% 15%;
 }
-
+#testimonial-carousel1 {
+padding: 0% 20%;
+}
+#testimonials .nerfTitle{
+    padding-top: 100px;
+}
 /****************************PRESS SECTION****************************/
 #press {
   background-color: #0d335d;
@@ -160,7 +167,7 @@ p {
 }
 /****************************FOOTER SECTION****************************/
 #footer {
-  background-color: #fff3e6;
+  background-color: #b4c5e0;
   padding: 7% 15%;
   text-align: center;
 }
