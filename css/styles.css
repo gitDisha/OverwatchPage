@@ -124,10 +124,10 @@ p {
 }
 #pricing .card-body {
   background-color: #1a508b;
-  color: #fff3e6;
+  color: white;
 }
 #pricing p {
-  color: #fff3e6;
+    color: white;
 }
 .marginRight {
   margin: auto auto auto 15%;
