@@ -46,8 +46,7 @@ p {
   padding-left: 150px;
   padding-right: 150px;
   color: white;
-  background-image: url('../images/Dorado.jpg')
-
+  background-image: url("../images/Dorado.jpg");
 }
 .title-image {
   width: 450px;
@@ -95,38 +94,37 @@ p {
   color: #fff3e6;
 }
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+  width: 70%;
+  border-radius: 10%;
+  margin: 10px;
 }
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/****************************PRESS SECTION****************************/
 #press {
   background-color: #0d335d;
   text-align: center;
-  padding-bottom: 3%;
+  /* padding-bottom: 2%; */
 }
 .pressLogo {
   width: 15%;
   margin: 20px 20px 50px;
 }
-.carousel-item {
-  padding: 7% 15%;
-}
-.column{
-    float: left;
-    width: 50%;
-}
+
 /****************************PRICING SECTION****************************/
 #pricing {
   padding: 100px;
   text-align: center;
   background-color: #fff3e6;
-  background-image: url('../images/black-forest.jpg')
+  background-image: url("../images/black-forest.jpg");
 }
 .pricing-column {
   padding: 2% 2%;
 }
-#pricing #priceTitle{
-    color: white;
+#pricing #priceTitle {
+  color: white;
 }
 #pricing .card-header {
   background-color: #0d335d;
@@ -137,7 +135,7 @@ p {
   color: white;
 }
 #pricing p {
-    color: white;
+  color: white;
 }
 .marginRight {
   margin: auto auto auto 15%;
